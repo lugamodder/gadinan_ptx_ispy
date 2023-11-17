@@ -1,0 +1,32 @@
+  <Camera id="300">
+    <Makes>
+      <Make Name="Gadinan" Model="8MP PTZ 5X ZOOM" />
+    </Makes>
+    <CommandURL>/cgi-bin/</CommandURL>
+    <Commands>
+	  <Left>ptz_ctrl?move_x=-1&amp;move_y=0&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</Left>
+	  <LeftUp>ptz_ctrl?move_x=-1&amp;move_y=1&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</LeftUp>
+      <Right>ptz_ctrl?move_x=1&amp;move_y=0&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</Right>
+	  <RightUp>ptz_ctrl?move_x=1&amp;move_y=1&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</RightUp>
+      <Up>ptz_ctrl?move_x=0&amp;move_y=1&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</Up>
+      <Down>ptz_ctrl?move_x=0&amp;move_y=-1&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</Down>
+	  <LeftDown>ptz_ctrl?move_x=-1&amp;move_y=-1&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</LeftDown>
+	  <RightDown>ptz_ctrl?move_x=1&amp;move_y=-1&amp;speed=5&amp;username=[USERNAME]&amp;password=[PASSWORD]</RightDown>
+      <Stop>ptz_ctrl?stop=1&amp;username=[USERNAME]&amp;password=[PASSWORD]</Stop>
+	  <ZoomIn>ptz_ctrl?zoom=1&amp;username=[USERNAME]&amp;password=[PASSWORD]</ZoomIn>
+	  <ZoomOut>ptz_ctrl?zoom=-1&amp;username=[USERNAME]&amp;password=[PASSWORD]</ZoomOut>
+    </Commands>
+    <ExtendedCommands>
+	 <Command Name="Focus near">ptz_ctrl?focus=1&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Focus far">ptz_ctrl?focus=-1&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Вызов пресета 1">ptz_ctrl?call_preset=1&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Вызов пресета 2">ptz_ctrl?call_preset=2&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Вызов пресета 3">ptz_ctrl?call_preset=3&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Сохранить пресет 1">ptz_ctrl?add_preset=1&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Сохранить пресет 2">ptz_ctrl?add_preset=2&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Сохранить пресет 3">ptz_ctrl?add_preset=3&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Удалить пресет 1">ptz_ctrl?delete_preset=1&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Удалить пресет 2">ptz_ctrl?delete_preset=2&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+	 <Command Name="Удалить пресет 3">ptz_ctrl?delete_preset=3&amp;username=[USERNAME]&amp;password=[PASSWORD]</Command>
+    </ExtendedCommands>
+  </Camera>
